@@ -25199,7 +25199,7 @@ __metadata:
     react-query: ^3.32.1
     react-router: ^6.1.0
     react-router-dom: ^6.1.0
-    react-test-renderer: ~16.8.6
+    react-test-renderer: ^17.0.2
     react-transition-group: ^4.4.1
     rimraf: ^2.6.3
     tsup: ^5.11.11
@@ -25652,7 +25652,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:^16.10.2, react-is@npm:^16.13.1, react-is@npm:^16.7.0, react-is@npm:^16.8.6":
+"react-is@npm:^16.10.2, react-is@npm:^16.13.1, react-is@npm:^16.7.0":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: 33977da7a5f1a287936a0c85639fec6ca74f4f15ef1e59a6bc20338fc73dc69555381e211f7a3529b8150a1f71e4225525b41b60b52965bda53ce7d47377ada1
@@ -25959,7 +25959,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-test-renderer@npm:^16.9.0 || ^17.0.0":
+"react-test-renderer@npm:^16.9.0 || ^17.0.0, react-test-renderer@npm:^17.0.2":
   version: 17.0.2
   resolution: "react-test-renderer@npm:17.0.2"
   dependencies:
@@ -25970,20 +25970,6 @@ __metadata:
   peerDependencies:
     react: 17.0.2
   checksum: a4ea1e745a87bb9015540d96a3077b614bf88e306a0edd639f8fb849a393fa5104e84eca4349bc4b026f2f0b115a4172d58950d7076316115795266557659276
-  languageName: node
-  linkType: hard
-
-"react-test-renderer@npm:~16.8.6":
-  version: 16.8.6
-  resolution: "react-test-renderer@npm:16.8.6"
-  dependencies:
-    object-assign: ^4.1.1
-    prop-types: ^15.6.2
-    react-is: ^16.8.6
-    scheduler: ^0.13.6
-  peerDependencies:
-    react: ^16.0.0
-  checksum: 51eea5ce0b3d070ff5e61e6e957de1b0101094297a8b3079f4a69226d7f606ef1c8211daed3c9b726aab1a87eddbce0ff205af8971dbb913ed114c09b772d23e
   languageName: node
   linkType: hard
 
@@ -27259,16 +27245,6 @@ __metadata:
   dependencies:
     xmlchars: ^2.2.0
   checksum: b7476c41dbe1c3a89907d2546fecfba234de5e66743ef914cde2603f47b19bed09732ab51b528ad0f98b958369d8be72b6f5af5c9cfad69972a73d061f0b3952
-  languageName: node
-  linkType: hard
-
-"scheduler@npm:^0.13.6":
-  version: 0.13.6
-  resolution: "scheduler@npm:0.13.6"
-  dependencies:
-    loose-envify: ^1.1.0
-    object-assign: ^4.1.1
-  checksum: 6dee75ece8e2a36fe66a9bfabe465026a057ed5f4d941111d94e03c748359812a6f7c5fa12a1cdf2d2dc60e92e0c29e19eb72b1e068f2265c862c0e112ae35e1
   languageName: node
   linkType: hard
 
